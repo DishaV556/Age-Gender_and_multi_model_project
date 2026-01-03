@@ -1,9 +1,9 @@
-🤖 Multi-Modal Attribute Prediction System
+🤖 AGE,GENDER AND MULTI-MODAL Attribute SYSTEM 
 
 
 ## 📌 Project Overview
 
-The Multi-Modal Attribute Prediction System is a Streamlit-based AI application that performs multiple human and object attribute predictions using images, videos, audio, and real-time camera input.
+The AGE,GENDER AND MULTI-MODAL Attribute SYSTEM  is a Streamlit-based AI application that performs multiple human and object attribute predictions using images, videos, audio, and real-time camera input.
 
 This project integrates Computer Vision, Deep Learning, Audio Processing, and Rule-Based Logic into a single unified interface with 7 functional modules (tabs).
 
@@ -18,11 +18,11 @@ This project focuses on:
 *Integration of multiple predictive models into a single system
 
 ## Download Dataset and model
-from this link 
+from this link -->https://drive.google.com/drive/folders/1UmtY2MVk905TR4bdFf5EX6RC1ldLYA7m?usp=sharing
 
 
 ## 🎥 Project Preview
-whatch it in project preview folder 
+whatch it in project preview folder affter downloading from google drive.
 
 ## 🎯 Key Features
 
@@ -269,6 +269,80 @@ US → Age
 
 African → Dress Color
 
+##📌 Problem Statement
+
+Traditional systems for human attribute analysis often rely on a single data modality such as either facial images or voice signals. These unimodal systems suffer from reduced accuracy and robustness due to variations in lighting conditions, background noise, camera quality, and individual differences.
+
+There is a need for a robust and intelligent system that can analyze multiple human attributes—such as age, gender, and emotion—by combining information from both visual and audio inputs. Such a system can be highly useful in applications like smart surveillance, human–computer interaction, security systems, demographic analysis, and assistive technologies.
+
+This project aims to overcome the limitations of unimodal approaches by developing a multi-modal intelligent analysis system that integrates computer vision and speech processing techniques.
+
+##🧠 Methodology
+
+The system follows a multi-modal machine learning pipeline, combining image-based and voice-based analysis:
+
+1. Image-Based Analysis
+
+Input images or video frames are captured using a webcam or uploaded by the user.
+
+Faces are detected using OpenCV / YOLO.
+
+Preprocessing steps include resizing, normalization, and noise reduction.
+
+Deep learning models (CNN-based) are used to predict:
+
+Age
+
+Gender
+
+Facial Emotion
+
+2. Voice-Based Analysis
+
+Audio input is recorded or uploaded.
+
+Audio preprocessing includes:
+
+Noise removal
+
+Feature extraction using MFCC (Mel Frequency Cepstral Coefficients)
+
+Trained deep learning models are used to predict:
+
+Age
+
+Gender
+
+Emotion from voice signals
+
+3. Multi-Modal Integration
+
+Predictions from both image and audio models are combined to provide a more accurate and reliable output.
+
+The system is deployed using Streamlit, providing an interactive and user-friendly interface.
+
+All predictions are logged and stored for analysis and visualization.
+
+##📊 Results
+
+The system successfully detects and predicts age, gender, and emotion using both facial and voice inputs.
+
+Multi-modal analysis improves prediction reliability compared to single-input systems.
+
+Real-time processing is achieved with a smooth and intuitive UI.
+
+The application demonstrates strong potential for use in:
+
+Smart surveillance systems
+
+Human–computer interaction
+
+Behavioral analysis
+
+Assistive and accessibility technologies
+
+Overall, the project validates that combining multiple modalities significantly enhances performance and robustness in human attribute analysis.
+
 ## 📊 Output & Visualization
 
 Bounding boxes and labels
@@ -299,5 +373,6 @@ API support for mobile integration
 
 Disha Vishwakarma
 IT Engineering 
-AI / ML | Data Science | Computer Vision
-Multi-Modal Intelligent Systems Developer
+ | Data Science | 
+emailid:-vishwakarmadisha63@gmail.com
+Age,Gender And Multi-Modal Intelligent Systems Developer
