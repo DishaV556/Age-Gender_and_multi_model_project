@@ -269,7 +269,7 @@ US → Age
 
 African → Dress Color
 
-##📌 Problem Statement
+## 📌Problem Statement
 
 Traditional systems for human attribute analysis often rely on a single data modality such as either facial images or voice signals. These unimodal systems suffer from reduced accuracy and robustness due to variations in lighting conditions, background noise, camera quality, and individual differences.
 
@@ -277,7 +277,7 @@ There is a need for a robust and intelligent system that can analyze multiple hu
 
 This project aims to overcome the limitations of unimodal approaches by developing a multi-modal intelligent analysis system that integrates computer vision and speech processing techniques.
 
-##🧠 Methodology
+## 🧠 Methodology
 
 The system follows a multi-modal machine learning pipeline, combining image-based and voice-based analysis:
 
@@ -323,7 +323,7 @@ The system is deployed using Streamlit, providing an interactive and user-friend
 
 All predictions are logged and stored for analysis and visualization.
 
-##📊 Results
+## 📊 Results
 
 The system successfully detects and predicts age, gender, and emotion using both facial and voice inputs.
 
@@ -376,3 +376,4 @@ IT Engineering
  | Data Science | 
 emailid:-vishwakarmadisha63@gmail.com
 Age,Gender And Multi-Modal Intelligent Systems Developer
+
